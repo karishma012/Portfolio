@@ -4,6 +4,7 @@ import About from './Components/About';
 import starsBackground from './Components/stars3.avif'; // Import the background image
 import Skills from './Components/Skills';
 import ProjectsSection from './Components/ProjectsSection';
+import Footer from './Components/Footer';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <About />
       <Skills/>
       <ProjectsSection/>
+      <Footer/>
       
     </div>
   );
