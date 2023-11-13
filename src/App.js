@@ -3,6 +3,8 @@ import Navbar from './Components/Navbar';
 import About from './Components/About';
 import starsBackground from './Components/stars3.avif'; // Import the background image
 import Skills from './Components/Skills';
+import ProjectsSection from './Components/ProjectsSection';
+
 
 function App() {
   const backgroundStyle = {
@@ -18,6 +20,8 @@ function App() {
       <Navbar />
       <About />
       <Skills/>
+      <ProjectsSection/>
+      
     </div>
   );
 }
