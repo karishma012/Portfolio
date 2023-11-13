@@ -16,7 +16,7 @@ function Skills() {
       },
     },
     hover: {
-      scale: 1.1,
+      scale: 0.9,
       transition: {
         type: 'spring',
         damping: 10,
