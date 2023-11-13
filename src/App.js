@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from './Components/Navbar';
 import About from './Components/About';
 import starsBackground from './Components/stars3.avif'; // Import the background image
+import Skills from './Components/Skills';
 
 function App() {
   const backgroundStyle = {
@@ -16,6 +17,7 @@ function App() {
     <div style={backgroundStyle}>
       <Navbar />
       <About />
+      <Skills/>
     </div>
   );
 }
