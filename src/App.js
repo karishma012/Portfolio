@@ -7,7 +7,6 @@ import Footer from './Components/Footer';
 import { Element } from "react-scroll";
 
 
-
 function App() {
   
 
