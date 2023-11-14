@@ -5,6 +5,7 @@ import starsBackground from './Components/stars3.avif'; // Import the background
 import Skills from './Components/Skills';
 import ProjectsSection from './Components/ProjectsSection';
 import Footer from './Components/Footer';
+import { Element } from "react-scroll";
 
 
 function App() {
@@ -17,12 +18,25 @@ function App() {
   };
 
   return (
-    <div style={backgroundStyle}>
+    <div className='bg-gray-950'>
       <Navbar />
-      <About />
+      <Element name="About" className="section">
+      <About/>
+      </Element>
+     
+      <Element name="Skills" className="section">
       <Skills/>
+      </Element>
+
+      
+      <Element name="Projects" className="section">
       <ProjectsSection/>
+      </Element>
+
+      
+      <Element name="Contact" className="section">
       <Footer/>
+      </Element>
       
     </div>
   );

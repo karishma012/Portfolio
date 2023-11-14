@@ -37,7 +37,7 @@ const projects = [
   {
     image: board,
     topic: 'Dashboard',
-    description: 'Description for Project 1A React web application was developed, featuring enhanced functionality through the incorporation of sorting, searching, and pagination capabilities. The application also integrates a chart library to visually represent data in accordance with the dataset content.',
+    description: 'Created React web application , featuring enhanced functionality through the incorporation of sorting, searching, and pagination capabilities. The application also integrates a chart library to visually represent data in accordance with the dataset content.',
     githubLink: 'https://github.com/karishma012/DashboardUI',
   },
   {

@@ -1,17 +1,23 @@
+// Footer.js
+
 import React from 'react';
-import Typed from 'react-typed';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faInstagram, faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
-
+import { motion, useAnimation } from 'framer-motion';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white py-8">
-
-      <div className="text-center text-gray-500 p-8 text-3xl font-bold animate-pulse">
-                <Typed strings={[' Contact Me']} typeSpeed={40} />
-              </div>
+    <footer className="bg-gray-950 text-white py-8">
+      
+      <motion.div
+        initial={{ x: '-100%' }}
+        animate={{ x: '0%' }}
+        transition={{ duration: 1.5 }}
+        className="text-center text-gray-700 p-8 text-3xl font-bold animate-pulse"
+      >
+        Contact Me
+      </motion.div>
       <div className="flex justify-center mb-8">
         {/* Social media icons */}
         <a href="https://www.linkedin.com/in/kk1210/" target="_blank" rel="noopener noreferrer" className="mx-6 text-blue-800 transform hover:scale-110 transition-transform">
