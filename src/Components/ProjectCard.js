@@ -26,17 +26,17 @@ const ProjectCard = ({ image, topic, description, githubLink }) => {
         <p className="text-base">{description}</p>
 
         {githubLink && (
-          <div className="mt-4 flex items-center">
-            <FaGithub className="text-gray-600 mr-2 text-xl" />
-            <a
-              href={githubLink}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-500 hover:underline"
-            >
-              GitHub Link
-            </a>
-          </div>
+          <div className="mt-4 flex items-center justify-center"> {/* Update this line */}
+          <FaGithub className="text-gray-600 mr-2 text-xl" />
+          <a
+            href={githubLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-500 hover:underline"
+          >
+            GitHub Link
+          </a>
+        </div>
         )}
       </div>
     </motion.div>
