@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHtml5, faCss3, faBootstrap, faReact } from '@fortawesome/free-brands-svg-icons';
+import './About.css';
 
 function Skills() {
   const cardAnimation = {
@@ -32,7 +33,7 @@ function Skills() {
       whileHover="hover"
       className="flex flex-col items-center justify-center min-h-screen bg-gray-950 p-4"
     >
-      <h1 className="text-4xl font-bold text-white mb-4 mt-0 animate-bounce">SKILLS</h1>
+      <h1 className="text-4xl font-bold text-white mb-4 mt-0 animate-bounce ">SKILLS</h1>
       <p className="text-xl text-gray-400 mb-4">
         Here are some of my skills on which I have been working for the past 2 years.
       </p>
@@ -44,7 +45,7 @@ function Skills() {
           animate="visible"
           variants={cardAnimation}
           whileHover="hover"
-          className="max-w-md mx-auto flex flex-col items-center border border-white p-8 rounded-lg m-4 h-80 bg-black"
+          className="max-w-md mx-auto flex flex-col items-center border border-white p-8 rounded-lg m-4 h-80 bg-black shadow-border"
         >
           <h3 className="text-2xl font-bold mb-4 text-white font-sans ">FRONTEND</h3>
           <div className='flex flex-wrap justify-center'>
@@ -69,7 +70,7 @@ function Skills() {
           animate="visible"
           variants={cardAnimation}
           whileHover="hover"
-          className="max-w-md mx-auto flex flex-col items-center  border border-white p-8 rounded-lg m-4 bg-black"
+          className="max-w-md mx-auto flex flex-col items-center  border border-white p-8 rounded-lg m-4 bg-black shadow-border"
         >
           <h3 className="text-2xl font-bold mb-4 text-white font-sans">BACKEND</h3>
           <div className='flex flex-wrap justify-center'>
@@ -132,7 +133,7 @@ function Skills() {
           animate="visible"
           variants={cardAnimation}
           whileHover="hover"
-          className="bg-black max-w-md mx-auto flex flex-col items-center border border-white p-8 rounded-lg m-4"
+          className="bg-black max-w-md mx-auto flex flex-col items-center border border-white p-8 rounded-lg m-4 shadow-border"
         >
           <h3 className="text-2xl font-bold mb-4 text-white font-s">PROGRAMMING</h3>
           <div className='flex flex-wrap justify-center'>

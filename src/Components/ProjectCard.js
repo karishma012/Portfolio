@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaGithub } from 'react-icons/fa';
+import './About.css';
 
 const ProjectCard = ({ image, topic, description, githubLink }) => {
   const cardAnimation = {
@@ -18,7 +19,7 @@ const ProjectCard = ({ image, topic, description, githubLink }) => {
     <motion.div
       whileHover="hover"
       variants={cardAnimation}
-      className="max-w-sm rounded overflow-hidden border border-purple-600 shadow-2xl bg-gray-950 p-4"
+      className="max-w-sm rounded overflow-hidden border border-purple-600 shadow-2xl bg-gray-950 p-4 shadow-border"
     >
       <img src={image} alt={topic} className="w-full h-48 object-cover border-2 border-purple-600 border-bold rounded-lg" />
       <div className="px-6 py-4 text-white">

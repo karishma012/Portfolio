@@ -5,6 +5,7 @@ import Skills from './Components/Skills';
 import ProjectsSection from './Components/ProjectsSection';
 import Footer from './Components/Footer';
 import { Element } from "react-scroll";
+import Experience from './Components/Experience';
 
 
 function App() {
@@ -25,11 +26,15 @@ function App() {
       <Element name="Projects" className="section">
       <ProjectsSection/>
       </Element>
+      <Element name="Experience" className="section">
+      <Experience/>
+      </Element>
 
       
       <Element name="Contact" className="section">
       <Footer/>
       </Element>
+      
       
       
     </div>

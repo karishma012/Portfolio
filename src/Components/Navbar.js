@@ -20,7 +20,9 @@ const Navbar = () => {
         <div className="hidden md:flex space-x-10">
           <Link to="About" spy={true} smooth={true} offset={50} duration={500} className="text-white hover:text-gray-400 hover:underline transition duration-300 cursor-pointer">ABOUT</Link>
           <Link to="Skills" spy={true} smooth={true} offset={50} duration={500} className="text-white hover:text-gray-400 hover:underline transition duration-300 cursor-pointer">SKILLS</Link>
+          
           <Link to="Projects" spy={true} smooth={true} offset={50} duration={500} className="text-white hover:text-gray-400 hover:underline transition duration-300 cursor-pointer">PROJECTS</Link>
+          <Link to="Experience" spy={true} smooth={true} offset={50} duration={500} className="text-white hover:text-gray-400 hover:underline transition duration-300 cursor-pointer">EXPERIENCE</Link>
           <Link to="Contact" spy={true} smooth={true} offset={50} duration={500} className="text-white hover:text-gray-400 hover:underline transition duration-300 cursor-pointer">CONTACT</Link>
         </div>
 
@@ -39,6 +41,7 @@ const Navbar = () => {
           <Link to="About" spy={true} smooth={true} offset={50} duration={500} className="text-white block hover:text-gray-400 hover:underline transition duration-300 cursor-pointer">ABOUT</Link>
           <Link to="Skills" spy={true} smooth={true} offset={50} duration={500} className="text-white block hover:text-gray-400 hover:underline transition duration-300 cursor-pointer">SKILLS</Link>
           <Link to="Projects" spy={true} smooth={true} offset={50} duration={500} className="text-white block hover:text-gray-400 hover:underline transition duration-300 cursor-pointer">PROJECTS</Link>
+          <Link to="Experience" spy={true} smooth={true} offset={50} duration={500} className="text-white hover:text-gray-400 hover:underline transition duration-300 cursor-pointer">EXPERIENCE</Link>
           <Link to="Contact" spy={true} smooth={true} offset={50} duration={500} className="text-white block hover:text-gray-400 hover:underline transition duration-300 cursor-pointer">CONTACT</Link>
         </div>
       )}

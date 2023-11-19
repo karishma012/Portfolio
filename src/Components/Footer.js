@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-950 text-white py-16 sm:py-32 md:py-40 lg:py-60 relative">
       {/* Transparent box with white border, opacity, and border shadow */}
-      <div className="bg-gray-300 bg-opacity-5 border-white border-2 rounded-lg p-10 mx-2 md:mx-8 lg:mx-16 xl:mx-20 2xl:mx-32 shadow-border">
+      <div className="bg-black border-purple-700 border-2 rounded-lg p-10 mx-2 md:mx-8 lg:mx-16 xl:mx-20 2xl:mx-32 shadow-border">
         <div className="flex justify-center mb-8">
           {/* Social media icons */}
           <a href="https://www.linkedin.com/in/kk1210/" target="_blank" rel="noopener noreferrer" className="mx-6 transform hover:scale-110 transition-transform">

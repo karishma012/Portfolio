@@ -50,7 +50,7 @@ function About() {
           
           <button
             type="button"
-            className="text-xl text-white rounded-2xl bg-pink-700 hover:bg-pink-800 focus:ring-4 focus:ring-blue-300 font-medium px-24 py-4 me-2 mb-2 md:px-32 lg:px-40 md:mb-0 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+            className="text-xl text-white rounded-2xl bg-pink-700 hover:bg-pink-800 focus:ring-4 focus:ring-blue-300 font-medium px-24 py-4 me-2 mb-2 md:px-32 lg:px-40 md:mb-0 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800 shadow-border"
           >
             My Resume
           </button>
