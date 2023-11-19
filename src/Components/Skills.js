@@ -134,7 +134,7 @@ function Skills() {
           whileHover="hover"
           className="bg-black max-w-md mx-auto flex flex-col items-center border border-white p-8 rounded-lg m-4"
         >
-          <h3 className="text-2xl font-bold mb-4 text-white font-s">CODING</h3>
+          <h3 className="text-2xl font-bold mb-4 text-white font-s">PROGRAMMING</h3>
           <div className='flex flex-wrap justify-center'>
             <motion.p
               initial="hidden"

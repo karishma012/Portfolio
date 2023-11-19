@@ -1,12 +1,12 @@
 // ProjectsSection.js
 import React from 'react';
 import ProjectCard from './ProjectCard';
-import yourPhoto from './news.png';
-import notehub from './notebook.png';
-import todo from './todo.png';
-import charge from './charging.jpeg';
-import board from './dashboard.png';
-import ui from './mobileui.png';
+import yourPhoto from './Images/news.png';
+import notehub from './Images/notebook.png';
+import todo from './Images/todo.png';
+import charge from './Images/charging.jpeg';
+import board from './Images/dashboard.png';
+import ui from './Images/mobileui.png';
 
 
 const projects = [

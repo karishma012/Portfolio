@@ -1,6 +1,6 @@
 // Navbar.js
 import React, { useState } from 'react';
-import logo from './profile.png'; // Replace with the actual path to your logo
+import logo from './Images/icon2.png'; // Replace with the actual path to your logo
 import { Link } from 'react-scroll';
 
 const Navbar = () => {

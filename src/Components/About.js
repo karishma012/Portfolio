@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import yourPhoto from './hero.png';
+import yourPhoto from './Images/hero.png';
 import './About.css'; // Import the CSS file
 import { motion, useAnimation } from 'framer-motion';
 
@@ -28,8 +28,8 @@ function About() {
   return (
     <div className="flex flex-col p-8 text-white items-center md:flex-row md:mt-16 bg-gray-950">
       <div className="md:max-w-xl md:ml-40">
-        <h1 className='text-6xl font-bold text-gray-500'>Hi, I am  </h1>
-        <p className='text-gray-600 text-6xl font-sans font-semibold animate-pulse'> Karishma Khemnani</p>
+        <h1 className='text-5xl font-bold text-gray-400'>Hi, I am  </h1>
+        <p className='text-green-400 text-5xl font-sans font-semibold animate-pulse'> Karishma Khemnani</p>
         
         <br />
         <h2 className='text-3xl font-sans font-bold '>
